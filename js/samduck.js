@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded" ,()=>{
 	nav_a.forEach( i => {
 		i.addEventListener("click" , ()=> {
 			nav.style.transition = "none";
-			nav.style.left = "-100%";
+			nav.style.left = "-105%";
 		});		
 	});
 
