@@ -7,12 +7,14 @@ document.addEventListener("DOMContentLoaded" ,()=>{
 	menu.addEventListener("click" , () => {
 		nav.style.transition = "left 0.5s";
 		nav.style.left = 0;
+		menu.textContent = "close";
 	});
 
 	nav_a.forEach( i => {
 		i.addEventListener("click" , ()=> {
 			nav.style.transition = "none";
 			nav.style.left = "-105%";
+			menu.textContent = "menu";
 		});		
 	});
 
